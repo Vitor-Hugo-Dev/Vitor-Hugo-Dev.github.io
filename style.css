@@ -1,0 +1,33 @@
+body{
+    background-color: #70C1B3;
+}
+.fontName{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.fontDescription{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+}
+.informative{
+    font-style: oblique;
+    }
+.htmlCss{
+    font-size: 16px;
+    font-weight: 600;
+    }
+.javascript{ 
+   font-size: 17px;
+   font-weight: 600;
+   }
+.linux{
+   font-size: 18px;
+   font-weight: 600;
+   }
+.proativo{
+   font-size: 19px;
+   font-weight: 600;
+   }
+.tequipe{
+   font-size: 20px;
+   font-weight: 600;
+   }
