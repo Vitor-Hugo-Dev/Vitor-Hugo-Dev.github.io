@@ -1,33 +1,67 @@
-body{
-    background-color: #70C1B3;
-}
-.fontName{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-.fontDescription{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-style: italic;
-}
-.informative{
-    font-style: oblique;
-    }
-.htmlCss{
-    font-size: 16px;
-    font-weight: 600;
-    }
-.javascript{ 
-   font-size: 17px;
-   font-weight: 600;
+   body{
+      background-color: #70C1B3;
    }
-.linux{
-   font-size: 18px;
-   font-weight: 600;
+   .fontName{ 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
    }
-.proativo{
-   font-size: 19px;
-   font-weight: 600;
+   .fontDescription{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: italic;
    }
-.tequipe{
-   font-size: 20px;
-   font-weight: 600;
+   .informative{
+      font-style: oblique;
+   }
+   ul:nth-of-type(2) li:nth-of-type(1){
+      font-size: 16px;
+      font-weight: 600;
+   }
+   ul:nth-of-type(2) li:nth-of-type(2){ 
+      font-size: 17px;
+      font-weight: 600;
+   }
+   ul:nth-of-type(2) li:nth-of-type(3){
+      font-size: 18px;
+      font-weight: 600;
+   }
+   ul:nth-of-type(2) li:nth-of-type(4){
+      font-size: 19px;
+      font-weight: 600;
+   }
+   ul:nth-of-type(2) li:nth-of-type(5){
+      font-size: 20px;
+      font-weight: 600;
+   }
+   .img{
+      position: absolute;
+      left: 30px;
+      padding:10px;
+      background-color: #73F5E6;
+   }
+   .description{
+      text-align: left;
+      position: relative;
+      max-width: 60%;
+      left: 365px;
+   }
+   .localbuton{
+      position:absolute;
+      top: 3900px;
+      left: 40px;
+   }
+   .skills{
+      font-style: bolder;
+      position: absolute;
+      top: 400px;
+      left: 40px;
+   }
+   .contact{
+      position: absolute;
+      top: 560px;
+      left: 40px;
+   }
+   .blog{
+      position: absolute;
+      top: 700px;
+      left: 40px;
    }
